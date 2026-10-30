@@ -71,3 +71,39 @@ a {
 .card:hover, .card:active {
     background-color: var(--roze3);
 }
+
+
+.routine-cards-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.routine-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 2px 2px 5px 1px grey;
+    background-color: var(--roze1);
+    font-size: small;
+}
+
+.routine-card img {
+    border-radius: 10px;
+    height: 65%;
+    width: 65%;
+}
+
+.routine-card:hover, .routine-card:active {
+    background-color: var(--roze3);
+}
