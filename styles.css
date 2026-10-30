@@ -1,4 +1,12 @@
+:root {
+--wit: #F9F5F6;
+--roze1: #F8E8EE;
+--roze2: #FDCEDF;
+--roze3: #F2BED1;
+}
+
 /* ------------------------------------GENERAL------------------------------------ */
+
 *, *::before, *::after {
 box-sizing: border-box;
 }
@@ -6,6 +14,7 @@ box-sizing: border-box;
 html, body {
 margin: 0px;
 scroll-behavior: smooth;
+background-color: white;
 }
 
 body {
@@ -17,7 +26,9 @@ display: flex;
 flex-direction: column;
 }
 
+
 /* ------------------------------------STYLING------------------------------------ */
+
 
 h1, p {
     text-align: center;
@@ -39,11 +50,24 @@ a {
 .card {
     border: 1px solid black;
     border-radius: 10px;
-    /* width: 300px;*/
+    width: 300px;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10px;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 2px 2px 5px 1px grey;
+    background-color: var(--roze1);
+}
+
+.card img {
+    border-radius: 10px;
+    height: 85%;
+    width: 85%;
+}
+
+.card:hover, .card:active {
+    background-color: var(--roze3);
 }
