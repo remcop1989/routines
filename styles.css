@@ -112,3 +112,14 @@ a {
     padding-left: 20px;
     text-decoration: underline;
 }
+
+.toppart {
+    height: 40vh;
+    border-bottom: 1px solid black;
+    background-color: var(--wit);
+}
+
+.subroutine-container {
+    height: 60vh;
+    background-color: var(--roze1);
+}
