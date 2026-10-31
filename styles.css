@@ -107,3 +107,8 @@ a {
 .routine-card:hover, .routine-card:active {
     background-color: var(--roze3);
 }
+
+.terugknop {
+    padding-left: 20px;
+    text-decoration: underline;
+}
