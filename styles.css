@@ -119,9 +119,8 @@ a {
     background-color: var(--wit);
 }
 
-
-
-.subroutine-details {
+.subroutine-kleren-aandoen {
+    visibility: hidden;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
